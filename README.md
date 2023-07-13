@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/olenahelena/social__proof__section)
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://curious-nasturtium-b71576.netlify.app/)
 
 ### Built with
 
