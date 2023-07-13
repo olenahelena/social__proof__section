@@ -43,14 +43,14 @@
           text-align: center;
           margin: 0 0 1.5rem;
       }
+  }
 
-      p {
-          font-size: 1.1rem;
-          line-height: 1.6rem;
-          font-weight: 500;
-          margin: 0 0 2.5rem;
-          text-align: center;
-      }
+  p {
+      font-size: 1.1rem;
+      line-height: 1.6rem;
+      font-weight: 500;
+      margin: 0 0 2.5rem;
+      text-align: center;
   }
 
   .container__achievement {
@@ -122,8 +122,8 @@
       }
 
       p {
-          color: $light-grayish-magenta;
-          font-size: 1.06rem;
+          color: $white;
+          font-size: 1rem;
           font-weight: 400;
           line-height: 1.38rem;
           text-align: left;
@@ -175,13 +175,13 @@
           max-width: 30rem;
 
           h1 {
-              font-size: 3.3rem;
+              font-size: 3.2rem;
               line-height: 3rem;
           }
+      }
 
-          p {
-              font-size: 1.125rem;
-          }
+      p {
+          font-size: 1.125rem;
       }
 
       .container__achievement {
@@ -209,7 +209,7 @@
 
   @media (min-width:62rem) {
       body {
-          background: url('/social-proof-section-master/images/bg-pattern-top-desktop.svg'), url('/social-proof-section-master/images/bg-pattern-bottom-desktop.svg');
+          background: url('/images/bg-pattern-top-desktop.svg'), url('/images/bg-pattern-bottom-desktop.svg');
           background-repeat: no-repeat, no-repeat;
           background-position: top left, bottom right;
       }
@@ -221,12 +221,12 @@
           h1 {
               text-align: left;
           }
+      }
 
-          p {
-              text-align: left;
-              margin: 0;
-              max-width: 25.8rem;
-          }
+      p {
+          text-align: left;
+          margin: 0;
+          max-width: 25.8rem;
       }
 
       .container__wrapper {
@@ -257,6 +257,7 @@
 
       .users__reviews__card {
           max-width: 16rem;
+          max-height: 14.6rem;
           padding: 2.43rem 2rem 2.69rem 1.8rem;
       }
 
@@ -288,7 +289,11 @@
 
       .container__wrapper {
           grid-template-columns: 1fr 2fr;
-          margin-bottom: 4.5rem;
+          margin-bottom: 4rem;
+      }
+
+      .container__text {
+          width: 25rem;
       }
 
       .achievement__rating:nth-child(2) {
@@ -306,10 +311,11 @@
 
       .users__reviews {
           flex-direction: row;
-          gap: 1.9rem;
+          gap: 1rem;
       }
 
       .users__reviews__card {
-          max-width: 21.9rem;
+          min-width: 21rem;
+          padding: 1.9rem 1.7rem 2.69rem;
       }
   }
