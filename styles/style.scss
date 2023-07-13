@@ -20,7 +20,7 @@
       font-weight: 400;
       color: $dark-grayish-magenta;
       background-color: $white;
-      background: url('/social-proof-section-master/images/bg-pattern-top-mobile.svg');
+      background: url('/images/bg-pattern-top-mobile.svg');
       background-repeat: no-repeat;
       background-position: top left;
       height: 100vh;
@@ -82,7 +82,7 @@
   }
 
   .star__icons {
-      background-image: url('/social-proof-section-master/images/icon-star.svg');
+      background-image: url('/images/icon-star.svg');
       background-repeat: no-repeat;
       width: 1.125rem;
       height: 1.125rem;
@@ -209,7 +209,7 @@
 
   @media (min-width:62rem) {
       body {
-          background: url('/social-proof-section-master/images/bg-pattern-top-desktop.svg'), url('/social-proof-section-master/images/bg-pattern-bottom-desktop.svg');
+          background: url('/images/bg-pattern-top-desktop.svg'), url('/images/bg-pattern-bottom-desktop.svg');
           background-repeat: no-repeat, no-repeat;
           background-position: top left, bottom right;
       }
