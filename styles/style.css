@@ -14,7 +14,7 @@ body {
   font-weight: 400;
   color: hsl(303, 10%, 53%);
   background-color: hsl(0, 0%, 100%);
-  background: url("/social-proof-section-master/images/bg-pattern-top-mobile.svg");
+  background: url("/images/bg-pattern-top-mobile.svg");
   background-repeat: no-repeat;
   background-position: top left;
   height: 100vh;
@@ -73,7 +73,7 @@ a {
 }
 
 .star__icons {
-  background-image: url("/social-proof-section-master/images/icon-star.svg");
+  background-image: url("/images/icon-star.svg");
   background-repeat: no-repeat;
   width: 1.125rem;
   height: 1.125rem;
